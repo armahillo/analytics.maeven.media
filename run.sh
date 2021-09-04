@@ -1,4 +1,4 @@
-bundle install --path vendor/bundle
+bundle install --path ../shared/bundle
 
 mkdir -p tmp/puma
 
