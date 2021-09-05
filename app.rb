@@ -2,6 +2,7 @@
 require 'rubygems'
 require 'bundler/setup'
 require 'sinatra'
+require 'dotenv/load'
 
 configure {
   set :server, :puma
